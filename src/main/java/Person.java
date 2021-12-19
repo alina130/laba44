@@ -10,7 +10,7 @@ public class Person {
     int salary;
 
     /**
-     * сюда передается массив из слов и отправляет его по полям
+     * сюда передается массив из слов и разделяет его по полям
      * @param masDate массив из слов архива.
      */
     public Person(String[] masDate){
@@ -18,8 +18,8 @@ public class Person {
         name = masDate[1];
         gender = masDate[2];
         dateBirth = masDate[3];
-        div.setIdDivision((int)(Math.random() * ((60000 - 30000) + 1)) + 30000);//генерируем подразделение от 3к до 60к
-        div.setNametitle(masDate[4]);//считываем 4 эл пчто это див
+        div.setIdDivision((int)(Math.random() * ((60000 - 30000) + 1)) + 30000);//генерируем подразделение
+        div.setNametitle(masDate[4]);
         salary = Integer.parseInt(masDate[5]);
     }
 

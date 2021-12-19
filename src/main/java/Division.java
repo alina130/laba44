@@ -5,8 +5,8 @@ public class Division {
     /**
      * два поля класса division
      */
-    private int idDivision;//айди подр
-    private String Nametitle;//имя подр
+    private int idDivision;//айди подразделения
+    private String Nametitle;//имя подразделения
 
     /**
      *фуекция , передает число , и он присваивает ее айди подразделению
