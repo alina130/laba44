@@ -3,10 +3,13 @@
  */
 public class Division {
     /**
-     * два поля класса division
+     * id подразделение
      */
-    private int idDivision;//айди подразделения
-    private String Nametitle;//имя подразделения
+    private int idDivision;
+    /**
+     * имя подразделения
+     */
+    private String Nametitle;
 
     /**
      *фуекция , передает число , и он присваивает ее айди подразделению
